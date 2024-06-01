@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "Today is " `date`
+
+mkdir build 
+cd build
+cmake .. 
+make 
