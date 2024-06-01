@@ -10,7 +10,8 @@ void Communication::data_manager()
     {
         std::string operation;
         std::cout << "Operation type (Insert, update, show information, delete or exit): ";
-        std::cin >> operation;
+        // std::cin >> operation;
+        std::getline(std::cin, operation);
         if (operation == "Insert")
         {
             int id;
